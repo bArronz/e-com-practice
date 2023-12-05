@@ -1,5 +1,7 @@
 .descriptionbox {
-    margin: 12px 170px;
+    margin: 2rem auto;
+    max-width: 1500px;
+    padding: 0 2rem;
 }
 
 .descriptionbox-nav {
@@ -10,14 +12,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
-    width: 171px;
-    height: 70px;
+    padding: 15px 30px;
     border: 1px solid #d0d0d0d0;
 }
 
-.descriptionbox-nav-box .fade {
+.fade {
     background: #fbfbfb;
     color: #555;
 }
@@ -29,4 +30,15 @@
     border: 1px solid #d0d0d0;
     padding: 48px;
     padding-bottom: 70px;
+}
+
+@media screen and (max-width:1024px) {
+    .descriptionbox-nav-box {
+        padding: 10px 20px;
+    }
+
+    .descriptionbox-description {
+        padding: 30px;
+        font-size: 14px;
+    }
 }
