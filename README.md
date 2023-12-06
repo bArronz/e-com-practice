@@ -1,1 +1,1 @@
-Project e-com-practice purpose to practice React.js skill, function add product to cart, function to see product details etc.
+E-Com practise project for practicing React.js skills, Add product to shopping cart function, Show product details function, etc.
